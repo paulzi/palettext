@@ -1,0 +1,19 @@
+{
+  "name": "palettext",
+  "version": "1.0.0",
+  "description": "Colors extract from image",
+  "main": "src/palette.js",
+  "bin": {
+    "palettext": "./cli.js"
+  },
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "pngjs": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PaulZi",
+  "license": "MIT"
+}
