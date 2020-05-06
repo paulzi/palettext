@@ -1,10 +1,10 @@
 {
   "name": "palettext",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Colors extract from image",
   "main": "src/palette.js",
   "bin": {
-    "palettext": "./cli.js"
+    "palettext": "./bin/cli.js"
   },
   "license": "MIT",
   "authors": [
