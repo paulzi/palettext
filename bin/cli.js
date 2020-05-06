@@ -3,8 +3,8 @@
 const minimist = require('minimist');
 const fs = require('fs');
 const PNG = require('pngjs').PNG;
-const Color = require('./src/color');
-const palette = require('./src/palette');
+const Color = require('../src/color');
+const palette = require('../src/palette');
 
 let args = minimist(process.argv.slice(2));
 let fixed = args.fixed ? args.fixed.split(',') : [];
