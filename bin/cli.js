@@ -34,7 +34,7 @@ let result = palette(img.data, {
 });
 let format = args.format || 'text';
 if (format === 'json') {
-    console.log(result);
+    console.log(JSON.stringify(result));
 } else {
     result.forEach(item => {
         console.log(item.hex);
